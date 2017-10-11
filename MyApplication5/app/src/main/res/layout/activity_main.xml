@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.saimazerinzeby.myapplication.MainActivity"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="322dp"
+        android:layout_height="33dp"
+        android:text="Result"
+        tools:layout_editor_absoluteY="318dp"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <Button
+        android:id="@+id/badd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="202dp" />
+
+    <Button
+        android:id="@+id/bsub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-"
+        tools:layout_editor_absoluteX="198dp"
+        tools:layout_editor_absoluteY="202dp" />
+
+    <Button
+        android:id="@+id/bmul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="*"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="260dp" />
+
+    <Button
+        android:id="@+id/bdiv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="/"
+        tools:layout_editor_absoluteY="260dp"
+        tools:layout_editor_absoluteX="198dp" />
+
+    <TextView
+        android:id="@+id/num1"
+        android:layout_width="294dp"
+        android:layout_height="28dp"
+        android:text="first number"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="5dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="296dp"
+        android:layout_height="30dp"
+        android:text="Second Number"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="102dp" />
+
+    <EditText
+        android:id="@+id/num1"
+        android:layout_width="296dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="44dp" />
+
+    <EditText
+        android:id="@+id/num2"
+        android:layout_width="298dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="145dp" />
+
+    <Button
+        android:id="@+id/sine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SINE"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="368dp" />
+
+    <Button
+        android:id="@+id/cose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="COSE"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="368dp" />
+
+    <Button
+        android:id="@+id/tane"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TAN"
+        tools:layout_editor_absoluteX="216dp"
+        tools:layout_editor_absoluteY="368dp" />
+
+
+</android.support.constraint.ConstraintLayout>
